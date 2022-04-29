@@ -6,7 +6,7 @@
   changeDir();
 
 function changeDir(){
-  if(regex.test(decodeURI(location.href))){
+  if(regex.test(document.querySelector('title').innerHTML)){
     document.dir = "rtl";
   }else{
     document.dir = "ltr";
