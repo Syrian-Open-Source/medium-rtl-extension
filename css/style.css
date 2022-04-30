@@ -1,9 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
 }
 .content {
     width: 300px;
-    height: 200px;
+    height: 250px;
     border-radius: 5px;
 }
 .content .header {
@@ -17,7 +20,7 @@ body{
     height: 50px;
     margin: 0 7px;
 }
-.content .header a{
+a{
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
@@ -35,4 +38,9 @@ body{
     height: 50px;
     margin: 0 7px;
     cursor: pointer;
+}
+.footer{
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0;
 }
