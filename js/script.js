@@ -7,10 +7,8 @@
     function changeDir() {
         if (regex.test(document.querySelector('title').innerHTML)) {
             document.dir = "rtl";
-            localStorage.setItem('medium_rtl_active', true);
         } else {
             document.dir = "ltr";
-            localStorage.setItem('medium_rtl_active', false);
         }
     }
 }

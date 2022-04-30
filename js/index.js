@@ -1,15 +1,17 @@
 const powerIcon = document.querySelector('.power-icon');
 
-powerIcon.addEventListener('click', function () {
-    if (localStorage.getItem('medium_rtl_active') == true) {
-        runChrome({active: false});
-    } else {
-        runChrome({active: true});
-    }
-});
-
-function runChrome(data) {
-    chrome.runtime.sendMessage(data, function(response) {
-        console.log(response);
+powerIcon.addEventListener('click', async () => {
+    let [tab] = await chrome.tabs.query({active: true, currentWindow: true});
+    chrome.scripting.executeScript({
+        target: {tabId: tab.id},
+        function: () => {
+            if (document.dir === 'rtl') {
+                document.dir = "ltr"
+            } else {
+                document.dir = "rtl"
+            }
+        },
     });
-}
+
+
+});
