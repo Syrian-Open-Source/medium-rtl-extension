@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.content {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.content .header {
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.content .header img{
+    width: 50px;
+    height: 50px;
+    margin: 0 7px;
+}
+.content .header a{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #4654a3;
+}
