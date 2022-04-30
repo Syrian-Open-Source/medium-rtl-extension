@@ -3,10 +3,19 @@
     "description": "Support Rtl direction for arabic articles in medium.com",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
     "content_scripts": [
         {
             "matches" : ["https://*.medium.com/*"],
-            "js" :["script.js"]
+            "js" :["./js/script.js"]
         }
-    ]
+    ],
+    "background": {
+        "service_worker": "./js/background.js"
+    },
+    "action" : {
+        "default_popup" : "index.html",
+        "default_title" : "Medium RTL",
+        "default_icon": "./images/logo.png"
+    }
   }
