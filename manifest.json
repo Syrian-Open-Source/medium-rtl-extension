@@ -11,6 +11,6 @@
     ],
     "browser_action" : {
         "default_popup" : "index.html",
-        "default_title" : "KM-FACEBOOK"
+        "default_title" : "Medium RTL"
     }
   }
