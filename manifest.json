@@ -3,6 +3,7 @@
     "description": "Support Rtl direction for arabic articles in medium.com",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
     "content_scripts": [
         {
             "matches" : ["https://*.medium.com/*"],
