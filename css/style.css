@@ -23,3 +23,16 @@ body{
     font-weight: bold;
     color: #4654a3;
 }
+.content .body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.content .body img{
+    width: 50px;
+    height: 50px;
+    margin: 0 7px;
+    cursor: pointer;
+}
