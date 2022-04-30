@@ -9,7 +9,7 @@
             "js" :["script.js"]
         }
     ],
-    "browser_action" : {
+    "action" : {
         "default_popup" : "index.html",
         "default_title" : "Medium RTL"
     }
