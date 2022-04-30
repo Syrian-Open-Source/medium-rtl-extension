@@ -11,6 +11,7 @@
     ],
     "action" : {
         "default_popup" : "index.html",
-        "default_title" : "Medium RTL"
+        "default_title" : "Medium RTL",
+        "default_icon": "logo.png"
     }
   }
