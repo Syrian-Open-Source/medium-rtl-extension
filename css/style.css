@@ -26,12 +26,20 @@ a{
     font-weight: bold;
     color: #4654a3;
 }
-.content .body {
+.content .body{
+    height: 150px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+.content .body .image-area {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
 }
 .content .body img{
     width: 50px;
@@ -41,7 +49,7 @@ a{
 }
 .footer{
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
     padding: 10px 0;
 }
 .footer a{
