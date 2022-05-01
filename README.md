@@ -1,8 +1,12 @@
+<div align="center" >
+    <img src='assets/ext-img.png' />
+</div>
+
 # Medium RTL
 Support Rtl direction for arabic articles in medium.com
 
 # Reason for release
-we were write articles about open sources and the benefits to contribute to open source projects
+we were wrote articles about open sources and the benefits to contribute to open source projects
 in arabic content, but unfortunately medium website does not support rtl direction, so we made this extension to make you able changing the direction to rtl 
 
 # installation
@@ -25,7 +29,7 @@ Now you must see the extension has been installed
 ![assets/ext-logo.png](assets/ext-logo.png)
 
 # Credit
-* [احمد مسلم](https://github.com/ahmad-ms96)
+* [Ahmed muslim](https://github.com/ahmad-ms96)
 * [All contributions](https://github.com/Syrian-Open-Source/medium-rtl-extension/graphs/contributors)
  
 # About Syrian Open Source
