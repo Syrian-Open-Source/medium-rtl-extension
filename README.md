@@ -1,3 +1,7 @@
+<div align="center" >
+    <img src='assets/ext-img.png' />
+</div>
+
 # Medium RTL
 Support Rtl direction for arabic articles in medium.com
 
