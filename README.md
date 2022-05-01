@@ -2,7 +2,7 @@
 Support Rtl direction for arabic articles in medium.com
 
 # Reason for release
-we were write articles about open sources and the benefits to contribute to open source projects
+we were wrote articles about open sources and the benefits to contribute to open source projects
 in arabic content, but unfortunately medium website does not support rtl direction, so we made this extension to make you able changing the direction to rtl 
 
 # installation
