@@ -25,7 +25,7 @@ Now you must see the extension has been installed
 ![assets/ext-logo.png](assets/ext-logo.png)
 
 # Credit
-* [احمد مسلم](https://github.com/ahmad-ms96)
+* [Ahmed muslim](https://github.com/ahmad-ms96)
 * [All contributions](https://github.com/Syrian-Open-Source/medium-rtl-extension/graphs/contributors)
  
 # About Syrian Open Source
